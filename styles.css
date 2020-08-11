@@ -1,0 +1,926 @@
+body {
+    margin: 0px;
+}
+
+#loadingArea {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    background-size: 100%;
+    background-color: black;
+    background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585055054/Sankha%27s%20Portfolio/images/sankha_bg_low_quality_rxnqes.jpg");
+}
+
+#contentArea {
+    position: absolute;
+    height: 1899px;
+    width: 100%;
+    display: none;
+}
+
+#cover {
+position: absolute;
+width: 360px;
+height: 277px;
+left: 0px;
+top: 0px;
+background-size: 100%;
+background-color: #C4C4C4;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1584978067/Sankha%27s%20Portfolio/images/sankha_360_x_277_gmiptp.jpg");
+}
+
+#headline {
+position: absolute;
+width: 233px;
+height: 33px;
+left: 63px;
+top: 22px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#profileBorder {
+position: absolute;
+width: 148px;
+height: 148px;
+left: 106px;
+top: 203px;
+border-radius: 50%;
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#profilePicture {
+position: absolute;
+width: 129px;
+height: 129px;
+left: 9.4px;
+top: 9.4px;
+margin: 0px auto;border-radius: 50%;
+background-size: 100%;
+background-color: #C4C4C4;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1584978074/Sankha%27s%20Portfolio/images/sankha_dp_yppatc.jpg");
+}
+
+#profileName {
+position: absolute;
+width: 274px;
+height: 33px;
+left: 43px;
+top: 365px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+#bio {
+position: absolute;
+width: auto;
+height: 15px;
+left: 65px;
+top: 398px;
+
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+#mailBTN {
+position: absolute;
+width: 27px;
+height: 27px;
+left: 77px;
+top: 436px;
+border-radius: 50%;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#resumeBTN {
+position: absolute;
+width: 131px;
+height: 27px;
+left: 115px;
+top: 436px;
+background: #488F94;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+
+#resumeText {
+position: absolute;
+width: 104px;
+height: 17px;
+left: 128px;
+top: 441px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+#webBTN {
+position: absolute;
+width: 27px;
+height: 27px;
+left: 257px;
+top: 436px;
+border-radius: 50%;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#darkLayer {
+    position: fixed;
+    height: 640px;
+    width: 360px;
+    background-color: black;
+    opacity: 90%;
+    display: none;
+}
+
+#resumeArea {
+position: fixed;
+width: 297px;
+height: 409px;
+left: 32px;
+top: 100px;
+text-align: center;
+background-color: #FBFFCA;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+display: none;
+}
+
+#resumeTXT {
+position: absolute;
+width: 165px;
+height: 17px;
+left: 60px;
+top: 10px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+#closeResume {
+position: absolute;
+width: 18px;
+height: 18px;
+left: 269px;
+top: 10px;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1584986104/Sankha%27s%20Portfolio/icons/close_fa9ysd.png");
+}
+
+#resumeViewer {
+position: absolute;
+width: 297px;
+height: 373px;
+left: 0px;
+top: 36px;
+background-color: #494949;
+background-size: 100%;
+border-radius: 0px 0px 5px 5px;
+}
+
+#showPDF {
+position: absolute;
+width: 159px;
+height: 30px;
+left: 69px;
+top: 359px;
+
+background: #488F94;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 35px;
+}
+
+#showpdfTXT {
+position: absolute;
+width: auto;
+height: 17px;
+left: 20px;
+top: 7px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+#imageArea {
+position: fixed;
+width: 360px;
+height: 485px;
+left: 0px;
+top: 40px;
+display: none;
+}
+
+#imageClose {
+position: absolute;
+width: 30px;
+height: 30px;
+left: 320px;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585059460/Sankha%27s%20Portfolio/icons/close_white_lxil1f.png");
+top: 10px;
+}
+
+#imageViewer {
+position: absolute;
+width: 360px;
+height: 434px;
+left: 0px;
+top: 50px;
+}
+
+#myImg {
+    object-fit: contain;
+}
+
+#socialArea {
+position: absolute;
+width: 232px;
+height: 40px;
+left: 64px;
+top: 490px;
+}
+
+#fbBTN {
+width: 40px;
+height: 40px;
+left: 0px;
+float: left;
+top: 0px;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585063521/Sankha%27s%20Portfolio/icons/ezgif.com-webp-to-jpg-min_lym3di.png");
+border-radius: 50%;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#igBTN {
+width: 40px;
+height: 40px;
+margin-left: 8px;
+top: 0px;
+float: left;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585066449/Sankha%27s%20Portfolio/icons/283-2831746_insta-icon-instagram-min_1_kulpub.png");
+border-radius: 50%;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#tweetBTN {
+width: 40px;
+height: 40px;
+margin-left: 8px;
+top: 0px;
+float: left;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585066503/Sankha%27s%20Portfolio/icons/twitter-icon_bghljx.png");
+border-radius: 50%;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#ytBTN {
+width: 40px;
+height: 40px;
+margin-left: 8px;
+top: 0px;
+float: left;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585066578/Sankha%27s%20Portfolio/icons/ezgif.com-webp-to-jpg_1_wwixju.png");
+border-radius: 50%;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#wpBTN {
+width: 40px;
+height: 40px;
+margin-left: 8px;
+top: 0px;
+float: left;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585324368/Sankha%27s%20Portfolio/video%20thumbnails/social-11-512_mdweud.png");
+border-radius: 50%;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#photosText {
+position: absolute;
+width: 66px;
+height: 22px;
+left: 147px;
+top: 568px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+#photosec1 {
+position: absolute;
+width: 315px;
+height: 55px;
+left: 23px;
+top: 608px;
+}
+
+#p1 {
+width: 55px;
+height: 55px;
+left: 0px;
+top: 0px;
+float: left;
+background-color: #C4C4C4;
+border-radius: 5px;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585058351/Sankha%27s%20Portfolio/all%20photos/71648724_1949326901880859_5895109228149866496_o.jpg_ukj50l.jpg");
+background-size: 100%;
+}
+
+#p2 {
+width: 55px;
+height: 55px;
+margin-left: 10px;
+top: 0px;
+float: left;
+background-color: #C4C4C4;
+border-radius: 5px;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585060387/Sankha%27s%20Portfolio/all%20photos/70596956_1937797609700455_865246862863499264_o.jpg_iuwou7.jpg");
+background-size: 100%;
+}
+
+#p3 {
+width: 55px;
+height: 55px;
+margin-left: 10px;
+top: 0px;
+float: left;
+background-color: #C4C4C4;
+border-radius: 5px;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585060734/Sankha%27s%20Portfolio/all%20photos/88240687_2142887459191468_182291619066675200_o.jpg_eh6uhx.jpg");
+background-size: 100%;
+}
+
+#p4 {
+width: 55px;
+height: 55px;
+margin-left: 10px;
+top: 0px;
+float: left;
+background-color: #C4C4C4;
+border-radius: 5px;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585060990/Sankha%27s%20Portfolio/all%20photos/54403645_1762758717204346_4576538192215277568_o.jpg_fcrwju.jpg");
+background-size: 100%;
+}
+
+#p5 {
+width: 55px;
+height: 55px;
+margin-left: 10px;
+top: 0px;
+float: left;
+background-color: #C4C4C4;
+border-radius: 5px;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585061117/Sankha%27s%20Portfolio/all%20photos/84118337_2109989425814605_5024864548067213312_o.jpg_mklvtk.jpg");
+background-size: 100%;
+}
+
+#photosec2 {
+position: absolute;
+width: 315px;
+height: 55px;
+left: 23px;
+top: 675px;
+}
+
+#p6 {
+width: 55px;
+height: 55px;
+margin-left: 0px;
+top: 0px;
+float: left;
+background-color: #C4C4C4;
+border-radius: 5px;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585061235/Sankha%27s%20Portfolio/all%20photos/23736233_1320043658142523_7723109806868237381_o.jpg_v8s614.jpg");
+background-size: 100%;
+}
+
+#p7 {
+width: 55px;
+height: 55px;
+margin-left: 10px;
+top: 0px;
+float: left;
+background-color: #C4C4C4;
+border-radius: 5px;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585061326/Sankha%27s%20Portfolio/all%20photos/79288637_2043533242460224_904465197085753344_o.jpg_hbncmn.jpg");
+background-size: 100%;
+}
+
+#p8 {
+width: 55px;
+height: 55px;
+margin-left: 10px;
+top: 0px;
+float: left;
+background-color: #C4C4C4;
+border-radius: 5px;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585061424/Sankha%27s%20Portfolio/all%20photos/27912603_1388375764642645_1004190186801471156_o.jpg_spwgmi.jpg");
+background-size: cover;
+}
+
+#p9 {
+width: 55px;
+height: 55px;
+margin-left: 10px;
+top: 0px;
+float: left;
+background-color: #C4C4C4;
+border-radius: 5px;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585061552/Sankha%27s%20Portfolio/all%20photos/16462959_1089227064557518_124507021525924783_o.jpg_fkmwab.jpg");
+background-size: 100%;
+}
+
+#p10 {
+width: 55px;
+height: 55px;
+margin-left: 10px;
+top: 0px;
+float: left;
+background-color: #C4C4C4;
+border-radius: 5px;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585062122/Sankha%27s%20Portfolio/all%20photos/21740066_1270146346465588_5513323213167987662_n.jpg_ph4usd.jpg");
+background-size: 100%;
+}
+
+#galleryBTN {
+position: absolute;
+width: 131px;
+height: 27px;
+left: 115px;
+top: 745px;
+
+background: #488F94;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+
+#galleryText {
+width: auto;
+height: 17px;
+margin-top: 6px;
+margin-left: 18px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+#workText {
+position: absolute;
+width: 132px;
+height: 22px;
+left: 114px;
+top: 801px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+#workImages {
+position: absolute;
+width: 315px;
+height: 24px;
+left: 19px;
+top: 836px;
+overflow-y: hidden;
+overflow-x: scroll;
+white-space: nowrap;
+}
+
+#workImages::-webkit-scrollbar {
+    display: none;
+}
+
+#work1 {
+display: inline-block;
+width: 83px;
+height: 24px;
+margin-left: 0px;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585068399/Sankha%27s%20Portfolio/worked%20with/gadgets_gadder_dzw5co.png");
+filter: grayscale(100%);
+}
+
+#work2 {
+display: inline-block;
+width: 83px;
+height: 24px;
+margin-left: 10px;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585069449/Sankha%27s%20Portfolio/worked%20with/huawei_hvf8fi.png");
+filter: grayscale(100%);
+}
+
+#work3 {
+display: inline-block;
+width: 83px;
+height: 24px;
+margin-left: 10px;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585070658/Sankha%27s%20Portfolio/worked%20with/eaternia_cv85sk.png");
+filter: grayscale(100%);
+}
+
+#work4 {
+display: inline-block;
+width: 83px;
+height: 24px;
+margin-left: 10px;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585071074/Sankha%27s%20Portfolio/worked%20with/starbucks_fkep18.png");
+filter: grayscale(100%);
+}
+
+#work5 {
+display: inline-block;
+width: 83px;
+height: 24px;
+margin-left: 10px;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585071456/Sankha%27s%20Portfolio/worked%20with/charcol_eats_k14ioc.png");
+filter: grayscale(100%);
+}
+
+#aboutTitle {
+position: absolute;
+width: 91px;
+height: 22px;
+left: 135px;
+top: 898px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+#aboutText {
+position: absolute;
+width: 346px;
+height: 51px;
+left: 7px;
+top: 927px;
+
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #000000;
+}
+
+#videosTitle {
+position: absolute;
+width: 96px;
+height: 22px;
+left: 132px;
+top: 1008px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+#videosArea {
+position: absolute;
+width: 319px;
+height: 100px;
+left: 19px;
+top: 1046px;
+overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+}
+
+#videosArea::-webkit-scrollbar {
+    display: none;
+}
+
+#vdo1 {
+display: inline-block;
+width: 177px;
+height: 100%;
+background-color: #C4C4C4;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585322457/Sankha%27s%20Portfolio/video%20thumbnails/sankha_1st_vdo_preview_me8uga.gif");
+border-radius: 7px;
+}
+
+#vdo2 {
+display: inline-block;
+width: 177px;
+height: 100%;
+margin-left: 8px;
+background-color: #C4C4C4;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585232407/Sankha%27s%20Portfolio/video%20thumbnails/hqdefault_ibtmd4.webp");
+border-radius: 7px;
+}
+
+#vdo3 {
+display: inline-block;
+width: 177px;
+height: 100%;
+margin-left: 8px;
+background-color: #C4C4C4;
+background-size: 100%;
+background-image: url("https://res.cloudinary.com/souvik-network/image/upload/v1585232493/Sankha%27s%20Portfolio/video%20thumbnails/hqdefault_jm7tv2.webp");
+border-radius: 7px;
+}
+
+#allVideos {
+position: absolute;
+width: 104px;
+height: 27px;
+left: 128px;
+top: 1162px;
+background: #488F94;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+
+#allvdoText {
+width: auto;
+height: 17px;
+margin-top: 5px;
+margin-left: 16px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+#articlesText {
+position: absolute;
+width: 103px;
+height: 22px;
+left: 129px;
+top: 1219px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+#a1 {
+position: absolute;
+width: 318px;
+height: 165px;
+left: 20px;
+top: 1262px;
+background-size: 100%;
+background-image: url("https://1.bp.blogspot.com/-cG6lyxvhS20/XbstB-ymXPI/AAAAAAAABq4/XxUTv4o47ogqAXaPzFA9K9-sSSUCx3woACLcBGAsYHQ/s1600/best%2Bvpn.jpg");
+background-color: #C4C4C4;
+border-radius: 6px;
+}
+
+#titleA1 {
+position: absolute;
+width: 318px;
+height: 35px;
+top: 130px;
+
+background: rgba(0, 0, 0, 0.8);
+border-radius: 0px 0px 6px 6px;
+}
+
+#textA1 {
+width: 252px;
+height: 16px;
+margin-left: 33px;
+margin-top: 9.5px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+
+#a2 {
+position: absolute;
+width: 318px;
+height: 165px;
+left: 20px;
+top: 1448px;
+background-size: 100%;
+background-image: url("https://3.bp.blogspot.com/-EoqjbcV6W8Y/XHweIY5SgKI/AAAAAAAABEE/2dx7MeF4AT8Pa81x7P10cy45QQsLXglVQCLcBGAs/s1600/Android%2BApps.png");
+background-color: #C4C4C4;
+border-radius: 6px;
+}
+
+#titleA2 {
+position: absolute;
+width: 318px;
+height: 35px;
+top: 130px;
+
+background: rgba(0, 0, 0, 0.8);
+border-radius: 0px 0px 6px 6px;
+}
+
+#textA2 {
+width: 279px;
+height: 16px;
+margin-left: 22.5px;
+margin-top: 9.5px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+
+#a3 {
+position: absolute;
+width: 318px;
+height: 165px;
+left: 20px;
+top: 1634px;
+background-size: 100%;
+background-image: url("https://2.bp.blogspot.com/-yXjgXlCI-JI/XJvOakISV5I/AAAAAAAABLo/0PtQpfBNPj0P83ksm4AIwVScLKlKdgrPACLcBGAs/s1600/hacker-2883632_1920.jpg");
+background-color: #C4C4C4;
+border-radius: 6px;
+}
+
+#titleA3 {
+position: absolute;
+width: 318px;
+height: 35px;
+top: 130px;
+
+background: rgba(0, 0, 0, 0.8);
+border-radius: 0px 0px 6px 6px;
+}
+
+#textA3 {
+width: 278px;
+height: 16px;
+margin-left: 21.5px;
+margin-top: 9.5px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+
+#allArticle {
+position: absolute;
+width: 104px;
+height: 27px;
+left: 128px;
+top: 1812px;
+
+background: #488F94;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+
+#allarticleText {
+width: 78px;
+height: 17px;
+margin-left: 13px;
+margin-top: 5px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+#footer {
+position: absolute;
+width: 360px;
+height: 29px;
+left: 0px;
+top: 1870px;
+
+background: #000000;
+border-radius: 0px;
+}
+
+#footerText {
+position: absolute;
+width: 217px;
+height: 11px;
+left: 72px;
+top: 1879px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 9px;
+line-height: 11px;
+/* identical to box height */
+
+opacity: 80%;
+color: white;
+}

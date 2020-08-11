@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <title>Sankha's Portfolio - Sankhadeep Chakraborty</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://res.cloudinary.com/souvik-network/raw/upload/v1585327831/Sankha%27s%20Portfolio/css%20files/styles_ykxymh.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    </head>
+    <body onload="loadHide()">
+        <div id="loadingArea"> <!-- loading section -->
+            <div style="width: 150px; height: 150px; margin-top: 200px; margin-left: 105px;"><lottie-player
+    src="https://assets7.lottiefiles.com/packages/lf20_j8tTot.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay >
+</lottie-player></div>
+            
+            <div style="margin-left: 65px; font-size: 14px; font-family: 'Montserrat', sans-serif; color: white;">Sankha's Portfolio is loading...</div>
+        </div>
+        
+        
+        <div id="contentArea">
+            <!-- cover, headline and dp -->
+            <div id="cover" onclick="callCover()"></div>
+            <div id="headline">Sankha's Portfolio</div>
+            <div id="profileBorder">
+                <div id="profilePicture" onclick="callDp()"></div>
+            </div>
+            
+            <!-- Name and bio -->
+            <div id="profileName"><strong>Sankhadeep Chakraborty</strong></div>
+            <div id="bio">Blogger, Vlogger, Writer, YouTuber</div>
+            
+            <!-- Quick buttons -->
+            <a href="mailto:sankhadeepchakraborty9@gmail.com"><div id="mailBTN">
+            <div style="height: 19px; width: 19px; margin-top: 4px; margin-left: 4px; background-size: 100%; background-image: url('https://res.cloudinary.com/souvik-network/image/upload/v1584980616/Sankha%27s%20Portfolio/icons/mail_zxp91z.png')"></div>
+            </div></a>
+            <div id="resumeBTN"></div>
+            <div id="resumeText" onclick="resumeViewer()">Show Resume</div>
+            <a href="https://gadgetsgadder.com/"><div id="webBTN">
+            <div style="height: 19px; width: 19px; margin-top: 4px; margin-left: 4px; background-size: 100%; background-image: url('https://res.cloudinary.com/souvik-network/image/upload/v1584980721/Sankha%27s%20Portfolio/icons/web_pjxyr6.png')"></div>
+            </div></a>
+            
+            <!-- social buttons -->
+            <div id="socialArea">
+                <a href="https://www.facebook.com/sankhadeep.chakraborty.3785" target="_blank"><div id="fbBTN"></div></a>
+                <a href="https://www.instagram.com/autoconfigsankha/" target="_blank"><div id="igBTN"></div></a>
+                <a href="https://twitter.com/SankhadeepChak1" target="_blank"><div id="tweetBTN"></div></a>
+                <a href="https://www.youtube.com/channel/UCX2WPZME7jc2MTSgEfwM07A" target="_blank"><div id="ytBTN"></div></a>
+                <a href="https://wa.me/919748609012" target="_blank"><div id="wpBTN"></div></a>
+            </div>
+            
+            <!-- photos gallery -->
+            <div id="photosText">Photos</div>
+            <div id="photosec1">
+                <div id="p1" onclick="callP1()"></div>
+                <div id="p2" onclick="callP2()"></div>
+                <div id="p3" onclick="callP3()"></div>
+                <div id="p4" onclick="callP4()"></div>
+                <div id="p5" onclick="callP5()"></div>
+            </div>
+            <div id="photosec2">
+                <div id="p6" onclick="callP6()"></div>
+                <div id="p7" onclick="callP7()"></div>
+                <div id="p8" onclick="callP8()"></div>
+                <div id="p9" onclick="callP9()"></div>
+                <div id="p10" onclick="callP10()"></div>
+            </div>
+            
+            <div id="galleryBTN">
+                <div id="galleryText">Show Gallery</div>
+            </div>
+            
+            <!-- I worked with area -->
+            <div id="worksArea">
+                <div id="workText"> I worked with,</div>
+                <div id="workImages">
+                    <div id="work1"></div>
+                    <div id="work2"></div>
+                    <div id="work3"></div>
+                    <div id="work4"></div>
+                    <div id="work5"></div>
+                </div>
+            </div>
+            
+            <!-- About me area -->
+            <div id="aboutTitle">About Me</div>
+            <div id="aboutText">Hello, I am Sankhadeep Chakraborty. I am here to provide you the latest and greatest tips and hacks that you can use in your daily life.</div>
+            
+            <!-- Videos area -->
+            <div id="videosTitle">My Videos</div>
+            <div id="videosArea">
+                <a href="https://www.youtube.com/watch?v=E_0PxZ-kI8k"><div id="vdo1"></div></a>
+                <a href="https://www.youtube.com/watch?v=b0o8J0YrfLc"><div id="vdo2"></div></a>
+                <a href="https://www.youtube.com/watch?v=_V-I4hJKfFA"><div id="vdo3"></div></a>
+            </div>
+            
+            <a href="https://www.youtube.com/channel/UCX2WPZME7jc2MTSgEfwM07A/videos" target="_blank"><div id="allVideos">
+                <div id="allvdoText">All Videos</div>
+            </div></a>
+            
+            <!-- Articles Area -->
+            <div id="articlesArea">
+                <div id="articlesText">My Articles</div>
+                
+                <!-- 1st article -->
+                <a href="https://www.gadgetsgadder.com/2019/11/free-vpn.html"><div id="a1">
+                    <div id="titleA1">
+                        <div id="textA1">Best Free Trusted VPN Services for 2020</div>
+                    </div>
+                </div></a>
+                
+                <!-- 2nd article -->
+                <a href="https://www.gadgetsgadder.com/2019/03/useful-android-apps-for-pubg.html"><div id="a2">
+                    <div id="titleA2">
+                        <div id="textA2">Some Useful Android apps for PUBG Lovers</div>
+                    </div>
+                </div></a>
+                
+                <!-- 3rd article -->
+                <a href="https://www.gadgetsgadder.com/2019/01/someone-is-spying.html"><div id="a3">
+                    <div id="titleA3">
+                        <div id="textA3">Attention Please! Someone is Spying on You</div>
+                    </div>
+                </div></a>
+                
+                <a href="https://gadgetsgadder.com/"><div id="allArticle">
+                    <div id="allarticleText">All Articles</div>
+                </div></a>
+            </div>
+            
+            <!-- footer area -->
+            <div id="footer"></div>
+            <div id="footerText">All Right Reserved © Sankhadeep Chakraborty</div>
+        </div>
+        
+        <div id="darkLayer"></div>
+        
+        <div id="resumeArea">
+            <div id="resumeTXT">Sankhadeep's Resume</div>
+            <div id="closeResume" onclick="closeresumeViewer()"></div>
+            <div id="resumeViewer">
+            </div>
+            <div id="showPDF">
+                <a href="https://res.cloudinary.com/souvik-network/image/upload/v1584991899/Sankha%27s%20Portfolio/cv_fxzlcp.pdf" target="_blank"><div id="showpdfTXT">Show Document</div></a>
+            </div>
+            
+        </div>
+        
+        <!-- Image viewer -->
+        <div id="imageArea">
+            <div id="imageClose" onclick="closeImage()"></div>
+            <div id="imageViewer">
+                <img id="myImg" src="" height="100%" width="100%">
+            </div>
+        </div>
+        
+        <!-- javascript files -->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src="https://res.cloudinary.com/souvik-network/raw/upload/v1585327883/Sankha%27s%20Portfolio/js%20files/homescript_ioqpie.js"></script>
+        <script src="https://res.cloudinary.com/souvik-network/raw/upload/v1585327905/Sankha%27s%20Portfolio/js%20files/imagecall_vjnu3p.js"></script>
+    </body>
+</html>
